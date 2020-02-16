@@ -1,0 +1,68 @@
+body{
+  background-image: url(./img/back.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main h4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  position: relative;
+  top: -50px;
+  color: yellow;
+  text-shadow: black 3px 3px 3px;
+}
+
+#logo{
+  width: 200px;
+}
+
+.none{
+  display: none;
+}
+
+#evolves{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: -70px;
+}
+
+.evolves{
+  margin: 10px;
+  width: 100px; 
+  height:100px; 
+  border: 2px; 
+  border-radius:50%;
+}
+
+#divInput{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: -60px;
+}
+
+#PokeName{
+  padding-inline-start: 10px;
+  position: relative;
+  top: 5px;
+  border: 5px;
+  border-radius: 10px;
+  height: 20px;
+  width: max-content;
+}
+
+.btn{
+  
+  width:70px;
+ 
+}
